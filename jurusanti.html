@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylejurusan.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STMIK Dharma Putra</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+        <nav class="blue darken-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo"><img src="img/navbar/logostmik.png"></a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#!" class="pendaftaran">Program Studi : TI</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- SIDEBAR -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#!">Pendaftaran</a></li>
+    </ul>
+    <!-- SIDEBAR -->
+
+    <!-- JUMBOTRON -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/jurusan/1.jpg">
+                <div class="caption center-align">
+                    <h3>Information Technology</h3>
+                    <h5 class="light grey-text text-lighten-3">leader in Information Technology</h5>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- Isi paragraf -->
+    <div class="container">
+        <div class="thestudy">
+            <div class="row">
+                <h5 class="center thestudy2 "><b> THE STUDY PROGRAM OF <br> INFORMATION TECHNOLOGY</b></h5>
+                <div class="col m12 s12 center">
+                    <div class="point">
+                        <p>The under graduate studies in Computer Science is designed to equip the graduates with the
+                            ability to
+                            have :</p>
+                        <p>1. Integrity and identity as an Indonesian</p>
+                        <p>2. Computer science and communication skill</p>
+                        <p>3. Computer science and communication observation</p>
+                        <p>4. Social and cultural intellectuality</p>
+                        <p>5. Design and Web-design skill</p>
+                        <p>6. Continuing study</p>
+                    </div>
+                    <br>
+                    <div class="point">
+                        <p>In general the available careers for the under graduates studies in Computer Science are :
+                        </p>
+                        <p>1. Programmer</p>
+                        <p>2. System Analyst</p>
+                        <p>3. System Programmer</p>
+                        <p>4. Software Engineer</p>
+                        <p>5. Database Administrator</p>
+                        <p>6. Networking Specialist</p>
+                        <p>7. Information Technology Consultant</p>
+                        <p>8. Web-consultant</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="page-footer blue darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">STMIK Dharma Putra</h5>
+                    <p class="grey-text text-lighten-4">Jl. Otto Iskandardinata 80 RT 004 RW 10</p>
+                    <p class="grey-text text-lighten-4">Bugel Karawaci, Tangerang </p>
+                    <p class="grey-text text-lighten-4">Banten - 15117 </p>
+                </div>
+                <!-- <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Direct Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+        <div class="footer-copyright ">
+            <div class="container">
+                © 2020 Copyright STMIK Dharma Putra
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const Slider = document.querySelectorAll('.slider');
+        M.Slider.init(Slider, {
+            height: 500,
+            transition: 600,
+            interval: 3000,
+            indicators: false
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

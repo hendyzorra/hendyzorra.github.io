@@ -1,0 +1,68 @@
+.brand-logo img{
+    width: 110px;
+}
+
+.slider h3,
+.slider h5{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.caption h3{
+    font-size: 60px !important;
+}
+
+.parallax-container{
+    height: 240px;
+}
+
+.parallax-container h2{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+section, footer{
+    padding: 20px 0;
+}
+
+.gallery h3{
+    margin-bottom: 35px !important;
+}
+
+
+.pendaftaran {
+    font-weight: bold !important;
+}
+
+.tentang .vision p{
+    margin-top: 30px !important;
+    margin-bottom: -20px !important;
+}
+
+.tentang .leader p{
+    font-size: x-large;
+}
+
+.tentang .mision p{
+    margin-top: -20px !important;
+}
+
+.tentang .objective p{
+    margin-top: -20px !important;
+}
+
+.noble {
+    margin-top: -35px !important;
+}
+
+.tentang .mision1 p{
+    margin-bottom: -3px !important;
+}
+
+.objective1 p{
+    margin-bottom: -3px !important;
+}
+
+.footer-copyright {
+    margin-bottom: -20px !important;
+}
+
+

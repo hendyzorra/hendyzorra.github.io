@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STMIK Dharma Putra</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+        <nav class="blue darken-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo"><img src="img/navbar/logostmik.png"></a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#!" class="pendaftaran">Registration</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- SIDEBAR -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#!">Pendaftaran</a></li>
+    </ul>
+    <!-- SIDEBAR -->
+
+    <!-- FORM -->
+    <section id="formpendaftaran" class="formpendaftaran">
+        <div class="container">
+            <h4 class="light grey-text center text-darken-3">New student registration</h4>
+            <div class="row">
+                <div class="col m12">
+                    <form>
+                        <div class="card-panel">
+                            <div class="row">
+                                <div class="input-field col m6 s12">
+                                    <input type="text" name="name" id="name" required class="validate">
+                                    <label for="name">Name</label>
+                                </div>
+                                <div class="input-field col m6 s12">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col m4 s6">
+                                    <input type="text" name="nohp" id="nohp" required class="validate">
+                                    <label for="nohp">No. Hp</label>
+                                </div>
+                                <div class="input-field col m4 s6">
+                                    <input type="text" name="whatsapp" id="whatsapp" required class="validate">
+                                    <label for="whatsapp">Whatsapp</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input type="email" name="email" id="email" required class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input type="text" name="asalsekolah" id="asalsekolah" class="validate">
+                                    <label for="text">Asal Sekolah</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn blue darken-2">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FORM -->
+
+
+
+    <!-- FOOTER -->
+    <footer class="page-footer blue darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">STMIK Dharma Putra</h5>
+                    <p class="grey-text text-lighten-4">Jl. Otto Iskandardinata 80 RT 004 RW 10</p>
+                    <p class="grey-text text-lighten-4">Bugel Karawaci, Tangerang </p>
+                    <p class="grey-text text-lighten-4">Banten - 15117 </p>
+                </div>
+                <!-- <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Direct Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div> -->
+            </div>
+        </div>
+        <div class="footer-copyright ">
+            <div class="container">
+                © 2020 Copyright STMIK Dharma Putra
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+    </script>
+
+
+
+
+</body>
+
+</html>
