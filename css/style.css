@@ -1,3 +1,12 @@
+@font-face{
+    font-family: muli;
+    src: url('Muli.ttf');
+}
+
+* {
+    font-family: 'muli';
+  }
+
 .brand-logo img{
     width: 110px;
 }
@@ -35,19 +44,20 @@ section, footer{
 .tentang .vision p{
     margin-top: 30px !important;
     margin-bottom: -20px !important;
+    font-size: larger;
 }
 
-.tentang .leader p{
-    font-size: x-large;
-}
 
 .tentang .mision p{
-    margin-top: -20px !important;
+    margin-top: -15px !important;
+    text-align: justify;
+
 }
 
 .tentang .objective p{
     margin-top: -20px !important;
 }
+
 
 .noble {
     margin-top: -35px !important;
@@ -55,6 +65,7 @@ section, footer{
 
 .tentang .mision1 p{
     margin-bottom: -3px !important;
+    font-size: larger;
 }
 
 .objective1 p{
